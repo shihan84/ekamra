@@ -1,8 +1,0 @@
-2026-09-07T13:32:41.4720000Z Evaluating build.if
-2026-09-07T13:32:41.4720000Z Evaluating: success()
-2026-09-07T13:32:41.4720000Z Result: true
-2026-09-07T13:32:41.4770000Z Requested labels: ubuntu-latest
-2026-09-07T13:32:41.4770000Z Job defined at: shihan84/ekamra/.github/workflows/build.yml@refs/heads/main
-2026-09-07T13:32:41.4770000Z Waiting for a runner to pick up this job...
-2026-09-07T13:32:41.9640000Z Job is about to start running on the hosted runner: GitHub Actions 1000006084
-2026-09-07T13:32:41.9700000Z Job is waiting for a hosted runner to come online.
