@@ -222,7 +222,7 @@ class _LandingScreenState extends State<LandingScreen>
                           Image.asset('assets/logo.png', scale: 6),
                           HelpMe().space(10.0),
                           Text(
-                            AppContent.oxooLiveTV,
+                            AppContent.ekamraLiveTV,
                             style: CustomTheme.bodyText1White,
                           ),
                         ],

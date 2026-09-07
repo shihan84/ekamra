@@ -197,7 +197,7 @@ class _LiveTvDetailsScreenState extends State<LiveTvDetailsScreen> {
                                                             25.0))),
                                               ),
                                               Text(
-                                                  AppContent.watchingLiveOxoo,
+                                                  AppContent.watchingLiveEkamra,
                                                   style: isDark
                                                       ? CustomTheme
                                                       .bodyText2White
@@ -416,7 +416,7 @@ class _LiveTvDetailsScreenState extends State<LiveTvDetailsScreen> {
                                                                   25.0))),
                                                 ),
                                                 Text(
-                                                    AppContent.watchingLiveOxoo,
+                                                    AppContent.watchingLiveEkamra,
                                                     style: isDark
                                                         ? CustomTheme
                                                             .bodyText2White

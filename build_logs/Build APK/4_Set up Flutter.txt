@@ -1,0 +1,105 @@
+﻿2026-09-07T13:32:47.8876186Z ##[group]Run subosito/flutter-action@v2
+2026-09-07T13:32:47.8876648Z with:
+2026-09-07T13:32:47.8876925Z   flutter-version: 3.32.8
+2026-09-07T13:32:47.8877510Z   channel: stable
+2026-09-07T13:32:47.8877818Z   cache: true
+2026-09-07T13:32:47.8878082Z   architecture: X64
+2026-09-07T13:32:47.8878382Z   pub-cache-path: default
+2026-09-07T13:32:47.8878714Z   dry-run: false
+2026-09-07T13:32:47.8879078Z   git-source: https://github.com/flutter/flutter.git
+2026-09-07T13:32:47.8879474Z env:
+2026-09-07T13:32:47.8879877Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+2026-09-07T13:32:47.8880460Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+2026-09-07T13:32:47.8881047Z ##[endgroup]
+2026-09-07T13:32:47.8943571Z ##[start-action display=Make yq tool available on Windows runners;id=__subosito_flutter-action.__run]
+2026-09-07T13:32:47.8955141Z ##[end-action id=__subosito_flutter-action.__run;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-09-07T13:32:47.8958004Z ##[start-action display=Make setup script executable;id=__subosito_flutter-action.__run_2]
+2026-09-07T13:32:47.8994977Z ##[group]Run chmod +x "$GITHUB_ACTION_PATH/setup.sh"
+2026-09-07T13:32:47.8995572Z [36;1mchmod +x "$GITHUB_ACTION_PATH/setup.sh"[0m
+2026-09-07T13:32:47.9041069Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-09-07T13:32:47.9041525Z env:
+2026-09-07T13:32:47.9041914Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+2026-09-07T13:32:47.9042485Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+2026-09-07T13:32:47.9043164Z ##[endgroup]
+2026-09-07T13:32:47.9183746Z ##[end-action id=__subosito_flutter-action.__run_2;outcome=success;conclusion=success;duration_ms=22]
+2026-09-07T13:32:47.9186603Z ##[start-action display=Set action inputs;id=__subosito_flutter-action.flutter-action]
+2026-09-07T13:32:47.9226114Z ##[group]Run $GITHUB_ACTION_PATH/setup.sh -p \
+2026-09-07T13:32:47.9226609Z [36;1m$GITHUB_ACTION_PATH/setup.sh -p \[0m
+2026-09-07T13:32:47.9226986Z [36;1m  -n '3.32.8' \[0m
+2026-09-07T13:32:47.9227589Z [36;1m  -f '' \[0m
+2026-09-07T13:32:47.9227873Z [36;1m  -a 'X64' \[0m
+2026-09-07T13:32:47.9228155Z [36;1m  -k '' \[0m
+2026-09-07T13:32:47.9228412Z [36;1m  -c '' \[0m
+2026-09-07T13:32:47.9228687Z [36;1m  -l '' \[0m
+2026-09-07T13:32:47.9228960Z [36;1m  -d 'default' \[0m
+2026-09-07T13:32:47.9229353Z [36;1m  -g 'https://github.com/flutter/flutter.git' \[0m
+2026-09-07T13:32:47.9229753Z [36;1m  stable[0m
+2026-09-07T13:32:47.9265062Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-09-07T13:32:47.9265480Z env:
+2026-09-07T13:32:47.9265868Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+2026-09-07T13:32:47.9266436Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+2026-09-07T13:32:47.9266883Z ##[endgroup]
+2026-09-07T13:32:48.2971554Z ##[end-action id=__subosito_flutter-action.flutter-action;outcome=success;conclusion=success;duration_ms=378]
+2026-09-07T13:32:48.2977477Z ##[start-action display=Cache Flutter;id=__subosito_flutter-action.cache-flutter]
+2026-09-07T13:32:48.3030960Z ##[group]Run actions/cache@v5
+2026-09-07T13:32:48.3031310Z with:
+2026-09-07T13:32:48.3031652Z   path: /opt/hostedtoolcache/flutter/stable-3.32.8-x64
+2026-09-07T13:32:48.3032202Z   key: flutter-linux-stable-3.32.8-x64-edada7c56edf4a183c1735310e123c7f923584f1
+2026-09-07T13:32:48.3032719Z   enableCrossOsArchive: false
+2026-09-07T13:32:48.3033051Z   fail-on-cache-miss: false
+2026-09-07T13:32:48.3033382Z   lookup-only: false
+2026-09-07T13:32:48.3033674Z   save-always: false
+2026-09-07T13:32:48.3033957Z env:
+2026-09-07T13:32:48.3034325Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+2026-09-07T13:32:48.3034894Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+2026-09-07T13:32:48.3035357Z ##[endgroup]
+2026-09-07T13:32:48.5656386Z Cache hit for: flutter-linux-stable-3.32.8-x64-edada7c56edf4a183c1735310e123c7f923584f1
+2026-09-07T13:32:49.7478396Z Received 134217728 of 1568406722 (8.6%), 125.2 MBs/sec
+2026-09-07T13:32:50.7495069Z Received 356515840 of 1568406722 (22.7%), 167.9 MBs/sec
+2026-09-07T13:32:51.7577474Z Received 541065216 of 1568406722 (34.5%), 170.4 MBs/sec
+2026-09-07T13:32:52.7525512Z Received 780140544 of 1568406722 (49.7%), 184.7 MBs/sec
+2026-09-07T13:32:53.7542847Z Received 973078528 of 1568406722 (62.0%), 184.6 MBs/sec
+2026-09-07T13:32:54.7538322Z Received 1174405120 of 1568406722 (74.9%), 185.8 MBs/sec
+2026-09-07T13:32:55.7598960Z Received 1342177280 of 1568406722 (85.6%), 182.1 MBs/sec
+2026-09-07T13:32:56.7598704Z Received 1551892480 of 1568406722 (98.9%), 184.3 MBs/sec
+2026-09-07T13:32:56.8336581Z Received 1568406722 of 1568406722 (100.0%), 184.5 MBs/sec
+2026-09-07T13:32:56.8338461Z Cache Size: ~1496 MB (1568406722 B)
+2026-09-07T13:32:56.8449529Z [command]/usr/bin/tar -xf /home/runner/work/_temp/35836fed-1ce7-44c1-8d0e-73d98de029a4/cache.tzst -P -C /home/runner/work/ekamra/ekamra --use-compress-program unzstd
+2026-09-07T13:33:01.1266601Z Cache restored successfully
+2026-09-07T13:33:01.2061255Z Cache restored from key: flutter-linux-stable-3.32.8-x64-edada7c56edf4a183c1735310e123c7f923584f1
+2026-09-07T13:33:01.2209529Z ##[end-action id=__subosito_flutter-action.cache-flutter;outcome=success;conclusion=success;duration_ms=12923]
+2026-09-07T13:33:01.2212965Z ##[start-action display=Cache pub dependencies;id=__subosito_flutter-action.cache-pub]
+2026-09-07T13:33:01.3511182Z ##[group]Run actions/cache@v5
+2026-09-07T13:33:01.3511747Z with:
+2026-09-07T13:33:01.3512002Z   path: /home/runner/.pub-cache
+2026-09-07T13:33:01.3512469Z   key: flutter-pub-linux-stable-3.32.8-x64-edada7c56edf4a183c1735310e123c7f923584f1-
+2026-09-07T13:33:01.3512954Z   enableCrossOsArchive: false
+2026-09-07T13:33:01.3513236Z   fail-on-cache-miss: false
+2026-09-07T13:33:01.3513520Z   lookup-only: false
+2026-09-07T13:33:01.3513759Z   save-always: false
+2026-09-07T13:33:01.3513987Z env:
+2026-09-07T13:33:01.3514310Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+2026-09-07T13:33:01.3514861Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+2026-09-07T13:33:01.3515261Z ##[endgroup]
+2026-09-07T13:33:01.6082136Z Cache hit for: flutter-pub-linux-stable-3.32.8-x64-edada7c56edf4a183c1735310e123c7f923584f1-
+2026-09-07T13:33:02.7825421Z Received 109051904 of 185178585 (58.9%), 103.9 MBs/sec
+2026-09-07T13:33:03.2131342Z Received 185178585 of 185178585 (100.0%), 123.4 MBs/sec
+2026-09-07T13:33:03.2132350Z Cache Size: ~177 MB (185178585 B)
+2026-09-07T13:33:03.2252819Z [command]/usr/bin/tar -xf /home/runner/work/_temp/19a21d7a-c81e-4d02-ac0c-88c037b01b7f/cache.tzst -P -C /home/runner/work/ekamra/ekamra --use-compress-program unzstd
+2026-09-07T13:33:05.5719479Z Cache restored successfully
+2026-09-07T13:33:05.5888867Z Cache restored from key: flutter-pub-linux-stable-3.32.8-x64-edada7c56edf4a183c1735310e123c7f923584f1-
+2026-09-07T13:33:05.5995788Z ##[end-action id=__subosito_flutter-action.cache-pub;outcome=success;conclusion=success;duration_ms=4378]
+2026-09-07T13:33:05.5998893Z ##[start-action display=Run setup script;id=__subosito_flutter-action.__run_3]
+2026-09-07T13:33:05.6038142Z ##[group]Run $GITHUB_ACTION_PATH/setup.sh \
+2026-09-07T13:33:05.6038546Z [36;1m$GITHUB_ACTION_PATH/setup.sh \[0m
+2026-09-07T13:33:05.6038938Z [36;1m  -n '3.32.8' \[0m
+2026-09-07T13:33:05.6039236Z [36;1m  -a 'x64' \[0m
+2026-09-07T13:33:05.6039574Z [36;1m  -c '/opt/hostedtoolcache/flutter/stable-3.32.8-x64' \[0m
+2026-09-07T13:33:05.6039998Z [36;1m  -d '/home/runner/.pub-cache' \[0m
+2026-09-07T13:33:05.6040295Z [36;1m  stable[0m
+2026-09-07T13:33:05.6079320Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-09-07T13:33:05.6079717Z env:
+2026-09-07T13:33:05.6080058Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+2026-09-07T13:33:05.6080607Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+2026-09-07T13:33:05.6081024Z ##[endgroup]
+2026-09-07T13:33:05.9009907Z ##[end-action id=__subosito_flutter-action.__run_3;outcome=success;conclusion=success;duration_ms=301]

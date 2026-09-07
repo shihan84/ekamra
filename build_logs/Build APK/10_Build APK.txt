@@ -1,0 +1,54 @@
+﻿2026-09-07T13:34:03.5275180Z ##[group]Run flutter build apk --release
+2026-09-07T13:34:03.5275743Z [36;1mflutter build apk --release[0m
+2026-09-07T13:34:03.5316008Z shell: /usr/bin/bash -e {0}
+2026-09-07T13:34:03.5316323Z env:
+2026-09-07T13:34:03.5316704Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+2026-09-07T13:34:03.5317523Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+2026-09-07T13:34:03.5318085Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.32.8-x64/flutter
+2026-09-07T13:34:03.5318496Z   PUB_CACHE: /home/runner/.pub-cache
+2026-09-07T13:34:03.5318796Z ##[endgroup]
+2026-09-07T13:38:05.7377607Z Running Gradle task 'assembleRelease'...                        
+2026-09-07T13:38:05.7378758Z Checking the license for package Android SDK Platform 33 in /usr/local/lib/android/sdk/licenses
+2026-09-07T13:38:05.7380956Z License for package Android SDK Platform 33 accepted.
+2026-09-07T13:38:05.7383270Z Preparing "Install Android SDK Platform 33 (revision 3)".
+2026-09-07T13:38:09.1316628Z "Install Android SDK Platform 33 (revision 3)" ready.
+2026-09-07T13:38:09.1329171Z Installing Android SDK Platform 33 in /usr/local/lib/android/sdk/platforms/android-33
+2026-09-07T13:38:09.1330033Z "Install Android SDK Platform 33 (revision 3)" complete.
+2026-09-07T13:38:09.3321570Z "Install Android SDK Platform 33 (revision 3)" finished.
+2026-09-07T13:38:09.3339667Z [=========                              ] 25%                                   
+2026-09-07T13:38:09.3340656Z [=========                              ] 25% Fetch remote repository...        
+2026-09-07T13:38:09.3341440Z [=======================================] 100% Fetch remote repository...       
+2026-09-07T13:38:18.4335475Z lib/screen/landing_screen.dart:225:40: Error: Member not found: 'oxooLiveTV'.
+2026-09-07T13:38:18.4336812Z                             AppContent.oxooLiveTV,
+2026-09-07T13:38:18.4338019Z                                        ^^^^^^^^^^
+2026-09-07T13:38:22.4349234Z lib/screen/live_tv_details_screen.dart:200:62: Error: Member not found: 'watchingLiveOxoo'.
+2026-09-07T13:38:22.4377983Z                                                   AppContent.watchingLiveOxoo,
+2026-09-07T13:38:22.4390298Z                                                              ^^^^^^^^^^^^^^^^
+2026-09-07T13:38:22.4391389Z lib/screen/live_tv_details_screen.dart:419:64: Error: Member not found: 'watchingLiveOxoo'.
+2026-09-07T13:38:22.4392449Z                                                     AppContent.watchingLiveOxoo,
+2026-09-07T13:38:22.4393174Z                                                                ^^^^^^^^^^^^^^^^
+2026-09-07T13:38:31.3309604Z Target kernel_snapshot_program failed: Exception
+2026-09-07T13:38:31.3359635Z 
+2026-09-07T13:38:35.8332201Z Note: Some input files use or override a deprecated API.
+2026-09-07T13:38:35.8371441Z Note: Recompile with -Xlint:deprecation for details.
+2026-09-07T13:38:37.1338702Z Note: Some input files use or override a deprecated API.
+2026-09-07T13:38:37.1398329Z Note: Recompile with -Xlint:deprecation for details.
+2026-09-07T13:38:37.1488415Z Note: Some input files use unchecked or unsafe operations.
+2026-09-07T13:38:37.1578493Z Note: Recompile with -Xlint:unchecked for details.
+2026-09-07T13:38:43.4329127Z 
+2026-09-07T13:38:43.4353817Z FAILURE: Build failed with an exception.
+2026-09-07T13:38:43.4359117Z 
+2026-09-07T13:38:43.4374640Z * What went wrong:
+2026-09-07T13:38:43.4375427Z Execution failed for task ':app:compileFlutterBuildRelease'.
+2026-09-07T13:38:43.4386725Z > Process 'command '/opt/hostedtoolcache/flutter/stable-3.32.8-x64/flutter/bin/flutter'' finished with non-zero exit value 1
+2026-09-07T13:38:43.4397842Z 
+2026-09-07T13:38:43.4398511Z * Try:
+2026-09-07T13:38:43.4399139Z > Run with --stacktrace option to get the stack trace.
+2026-09-07T13:38:43.4400017Z > Run with --info or --debug option to get more log output.
+2026-09-07T13:38:43.4400808Z > Run with --scan to get full insights.
+2026-09-07T13:38:43.4401547Z > Get more help at https://help.gradle.org.
+2026-09-07T13:38:43.4402089Z 
+2026-09-07T13:38:43.4403083Z BUILD FAILED in 4m 38s
+2026-09-07T13:38:43.9611519Z Running Gradle task 'assembleRelease'...                          278.9s
+2026-09-07T13:38:43.9704951Z Gradle task assembleRelease failed with exit code 1
+2026-09-07T13:38:43.9774294Z ##[error]Process completed with exit code 1.

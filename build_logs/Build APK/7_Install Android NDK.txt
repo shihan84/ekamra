@@ -1,0 +1,84 @@
+﻿2026-09-07T13:33:22.5445397Z ##[group]Run yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "ndk;28.0.12674087" || true
+2026-09-07T13:33:22.5446286Z [36;1myes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "ndk;28.0.12674087" || true[0m
+2026-09-07T13:33:22.5485134Z shell: /usr/bin/bash -e {0}
+2026-09-07T13:33:22.5485431Z env:
+2026-09-07T13:33:22.5485784Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+2026-09-07T13:33:22.5486323Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+2026-09-07T13:33:22.5486839Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.32.8-x64/flutter
+2026-09-07T13:33:22.5487350Z   PUB_CACHE: /home/runner/.pub-cache
+2026-09-07T13:33:22.5487648Z ##[endgroup]
+2026-09-07T13:33:23.2843424Z Loading package information...                                                  
+2026-09-07T13:33:23.3919350Z Loading local repository...                                                     
+2026-09-07T13:33:23.3920888Z [                                       ] 3% Loading local repository...        
+2026-09-07T13:33:23.4006857Z [                                       ] 3% Fetch remote repository...         
+2026-09-07T13:33:23.6990944Z [=                                      ] 3% Fetch remote repository...         
+2026-09-07T13:33:23.7705278Z [=                                      ] 4% Fetch remote repository...         
+2026-09-07T13:33:23.8035898Z [=                                      ] 5% Fetch remote repository...         
+2026-09-07T13:33:23.8606871Z [==                                     ] 5% Fetch remote repository...         
+2026-09-07T13:33:23.9337113Z [==                                     ] 6% Fetch remote repository...         
+2026-09-07T13:33:24.0168607Z [==                                     ] 7% Fetch remote repository...         
+2026-09-07T13:33:24.0190601Z [==                                     ] 7% Computing updates...               
+2026-09-07T13:33:24.0288163Z [===                                    ] 8% Computing updates...               
+2026-09-07T13:33:24.0462106Z [===                                    ] 10% Computing updates...              
+2026-09-07T13:33:24.4936666Z [===                                    ] 10% Installing NDK (Side by side) 28.0
+2026-09-07T13:33:24.8720582Z [===                                    ] 10% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:25.0260812Z [====                                   ] 10% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:25.2130563Z [====                                   ] 11% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:25.4039923Z [====                                   ] 12% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:25.5021418Z [=====                                  ] 13% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:25.6020330Z [=====                                  ] 14% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:25.6779600Z [=====                                  ] 15% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:25.8169195Z [======                                 ] 15% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:25.9169366Z [======                                 ] 16% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:26.0419775Z [======                                 ] 17% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:26.1421222Z [=======                                ] 18% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:26.4537155Z [=======                                ] 19% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:26.5036363Z [=======                                ] 20% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:26.6454051Z [========                               ] 20% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:26.7707415Z [========                               ] 21% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:26.9982329Z [========                               ] 22% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:27.0982272Z [=========                              ] 23% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:27.2184362Z [=========                              ] 24% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:27.2546815Z [=========                              ] 25% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:27.2865107Z [==========                             ] 25% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:27.3638505Z [==========                             ] 26% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:27.4262522Z [==========                             ] 27% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:27.5074259Z [===========                            ] 28% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:27.5712721Z [===========                            ] 29% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:27.6029967Z [===========                            ] 30% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:27.6511907Z [============                           ] 30% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:27.7130438Z [============                           ] 31% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:27.7752890Z [============                           ] 32% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:27.7757063Z [============                           ] 33% Downloading android-ndk-r28-beta2-
+2026-09-07T13:33:28.4166579Z [============                           ] 33% Unzipping...                      
+2026-09-07T13:33:28.4186817Z [============                           ] 33% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:29.0445380Z [=============                          ] 33% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:29.5677121Z [=============                          ] 34% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:29.7860726Z [=============                          ] 35% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:30.0572947Z [==============                         ] 35% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:30.4867413Z [==============                         ] 36% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:31.1302084Z [==============                         ] 37% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:31.5157646Z [===============                        ] 38% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:31.9698035Z [===============                        ] 39% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:32.1967582Z [===============                        ] 40% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:32.4471375Z [================                       ] 40% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:32.9750405Z [================                       ] 41% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:33.4412327Z [================                       ] 42% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:34.2765287Z [=================                      ] 43% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:34.8326438Z [=================                      ] 44% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:35.1368062Z [=================                      ] 45% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:35.7968389Z [==================                     ] 45% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:36.2558677Z [==================                     ] 46% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:36.7055599Z [==================                     ] 47% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:37.1602694Z [===================                    ] 48% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:37.6174378Z [===================                    ] 49% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:37.8222080Z [===================                    ] 50% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:38.0478490Z [====================                   ] 50% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:38.5336612Z [====================                   ] 51% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:38.9550047Z [====================                   ] 52% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:39.4179049Z [=====================                  ] 53% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:40.0445390Z [=====================                  ] 54% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:40.3501719Z [=====================                  ] 55% Unzipping... android-ndk-r28-beta2
+2026-09-07T13:33:40.3502760Z [=======================================] 100% Unzipping... android-ndk-r28-beta
+2026-09-07T13:33:40.9686237Z 
+2026-09-07T13:33:40.9939583Z yes: standard output: Broken pipe
