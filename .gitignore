@@ -165,3 +165,14 @@ android-tv/.cxx/
 android-tv/.idea/
 # Keep TV app keystore for signing
 !android-tv/keys/*.jks
+
+# Build artifacts
+ekamra-tv-release/
+*.apk
+*.aab
+!android-tv/keys/*.jks
+
+# Temp PHP scripts
+fix_branding.php
+audit_fix.php
+cleanup.php

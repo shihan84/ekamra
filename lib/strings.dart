@@ -1,6 +1,6 @@
 class AppContent {
   static final String appName = "EKAMRA IPTV";
-  static final String oxooLiveTV = "$appName";
+  static final String ekamraLiveTV = "$appName";
   static final String home = "Home";
   static final String movies = "Movies";
   static final String live = "Live";
@@ -40,7 +40,7 @@ class AppContent {
   static final String resetPassword = "Reset Password";
   static final String resetNote =
       "[Note: If you created your account with ekamraott.com[ex:yourname@ekamraott.com] domain mail then you will able to reset your password.\nThank you. Stay with EKAMRA IPTV]";
-  static final String watchingLiveOxoo = "Watching live on $appName";
+  static final String watchingLiveEkamra = "Watching live on $appName";
   static final String watchNow = "WATCH NOW";
   static final String nowWatching = "Now Watching";
   static final String allTvChannels = "All TV Channels";
@@ -87,7 +87,6 @@ class AppContent {
   static final String areYouSureLogout = "Are you sure to logout ?";
   static final String yesText = "Yes";
   static final String noText = "No";
-  static final String listeningZamoo = "listeningZamoo";
   static final String selectServer = "Select Server";
   static final String showResultFor = "Showing Result For: ";
   static final String noitemshere = "No items here";
