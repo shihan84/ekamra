@@ -165,6 +165,8 @@ android-tv/.cxx/
 android-tv/.idea/
 # Keep TV app keystore for signing
 !android-tv/keys/*.jks
+# Keep mobile app keystore for signing
+!android/keys/*.jks
 
 # Build artifacts
 ekamra-tv-release/
