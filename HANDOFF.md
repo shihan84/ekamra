@@ -87,6 +87,11 @@ Ekamra OTT is a rebranded OTT/IPTV platform (originally OXOO by SpaGreen) consis
 - Deleted Flutter pub cache `~\AppData\Local\Pub\Cache` (2.8 GB)
 - Total space freed: ~5.4 GB
 
+### Admin Panel Crash — FIXED ✅
+**Root Cause:** Branding cleanup script (`fix_audit.php`) used `str_ireplace` which replaced the entire comment block + class declaration + constructor in 3 controllers on BOTH panels with just `/** EKAMRA */`
+**Affected Files:** `Login.php`, `Api.php`, `Subscription.php` (both main and TV panels)
+**Fix:** Restored class declarations and constructors via PHP fix script on server
+
 ### Admin Panel Audit (Partially Complete)
 - **Completed:** Config audit, security audit, DB integrity check, REST API health check, branding scan
 - **Temp audit files cleaned** from local and server
