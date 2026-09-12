@@ -153,7 +153,7 @@ count_channels.php
 setup_tv_db.php
 update_tv_config.php
 PLAY_CONSOLE_UPDATE_GUIDE.md
-HANDOFF.md
+# HANDOFF.md - keep tracked for project continuity
 
 # Android TV app
 android-tv/local.properties
