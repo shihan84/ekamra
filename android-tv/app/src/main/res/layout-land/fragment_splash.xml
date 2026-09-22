@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.files.codes.view.MainActivity"
-    android:background="@color/splashScreenColor"
+    android:background="@drawable/tv_splash"
     android:orientation="vertical"
     android:gravity="center">
 
