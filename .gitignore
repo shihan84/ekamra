@@ -1,6 +1,8 @@
 # Miscellaneous
 *.class
 *.lock
+!pubspec.lock
+!**/Podfile.lock
 *.log
 *.pyc
 *.swp
@@ -61,10 +63,16 @@ unlinked_spec.ds
 
 # Android related
 **/android/**/gradle-wrapper.jar
+!/android/gradle/wrapper/gradle-wrapper.jar
+!/android-tv/gradle/wrapper/gradle-wrapper.jar
 .gradle/
 **/android/captures/
 **/android/gradlew
 **/android/gradlew.bat
+!/android/gradlew
+!/android/gradlew.bat
+!/android-tv/gradlew
+!/android-tv/gradlew.bat
 **/android/**/GeneratedPluginRegistrant.java
 
 # Android Keystores - DO NOT COMMIT
@@ -184,3 +192,4 @@ build_log.txt
 build_logs.zip
 build_logs/
 tv_log.zip
+*.zip
