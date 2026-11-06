@@ -1,7 +1,7 @@
 # Handoff Document — Ekamra OTT
 
-**Last Updated:** Sep 12, 2026 6:25 PM IST  
-**Latest Commit:** `98a112a` — fix: sign release APK with committed keystore, disable ProGuard minification  
+**Last Updated:** Nov 5, 2026  
+**Latest Commit:** `16f3069` — ci: harden GitHub Actions workflows and repo hygiene  
 **Repo:** https://github.com/shihan84/ekamra.git (branch: main)
 
 ---
@@ -110,6 +110,13 @@ Ekamra OTT is a rebranded OTT/IPTV platform (originally OXOO by SpaGreen) consis
   - `application/controllers/Updater.php` lines 5-10: `OVOO` in header comments
 - [ ] **Dashboard accessible without auth** — Investigate why dashboard loads without login
 - [ ] **API returns 405** — Check REST API method handling for non-GET requests
+
+### Admin Panel 500s — FIXED (Nov 5, 2026) ✅
+- **Root cause 1:** `application/controllers/Subscription.php` corrupted (83-line stub, missing `index()` decl → parse error). Restored full 590-line file from local v139 source with Ekamra header. All 6 `subscription/*` routes now 200 on BOTH panels.
+- **Root cause 2:** Views called `ekamra_config()` but helper only defined `ovoo_config()` (rebranding renamed calls, not the def). Added `ekamra_config()` alias in `custom_helper.php`. Fixed `admin/mobile_ads_setting` + `sub_setting` + `payment_setting`.
+- **Backups:** `*.bak-20261105` beside each modified file on server.
+- **Moved aside:** `fix_branding.php` (the damaging script) → `~/_disabled_scripts/`.
+- **Known leftovers:** `coupon` table + `coupon_manage.php` view never shipped upstream (dead code, not in sidebar); `android_app_setting.php` orphan view has parse error (unused); OneSignal creds in config are placeholders (`one_signal_app_id_here`) — notification *sends* silently fail until real keys are set.
 
 ### General
 - [ ] **Add SHA keys to Firebase Console** for `com.ekamra.tv` app (needed for Google login on TV)
