@@ -101,7 +101,7 @@ Ekamra OTT is a rebranded OTT/IPTV platform (originally OXOO by SpaGreen) consis
 ## Pending Tasks
 
 ### Admin Panel Fixes
-- [ ] **cookie_httponly** — Main panel still has `FALSE`, should be `TRUE` (line 392 in config.php)
+- [x] **cookie_httponly** — FIXED Nov 5, 2026: main panel config.php now `TRUE` (TV panel already was)
 - [ ] **Branding cleanup** — Remaining references in:
   - `application/views/admin/index.php` line 18: `SpaGreen` in meta copyright
   - `application/controllers/Admin.php` line 6: `OXOO` in header comment, line 2965: `ovoo` in URL
@@ -116,7 +116,8 @@ Ekamra OTT is a rebranded OTT/IPTV platform (originally OXOO by SpaGreen) consis
 - **Root cause 2:** Views called `ekamra_config()` but helper only defined `ovoo_config()` (rebranding renamed calls, not the def). Added `ekamra_config()` alias in `custom_helper.php`. Fixed `admin/mobile_ads_setting` + `sub_setting` + `payment_setting`.
 - **Backups:** `*.bak-20261105` beside each modified file on server.
 - **Moved aside:** `fix_branding.php` (the damaging script) → `~/_disabled_scripts/`.
-- **Known leftovers:** `coupon` table + `coupon_manage.php` view never shipped upstream (dead code, not in sidebar); `android_app_setting.php` orphan view has parse error (unused); OneSignal creds in config are placeholders (`one_signal_app_id_here`) — notification *sends* silently fail until real keys are set.
+- **Known leftovers:** `coupon` table + `coupon_manage.php` view never shipped upstream (dead code, not in sidebar); OneSignal creds in config are placeholders (`one_signal_app_id_here`) — notification *sends* silently fail until real keys are set.
+- **Also fixed:** `android_app_setting.php` view (missing semicolons, CRLF) now parses on both panels.
 
 ### General
 - [ ] **Add SHA keys to Firebase Console** for `com.ekamra.tv` app (needed for Google login on TV)
